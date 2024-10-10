@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 10px;
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+nav img {
+    width: 70px;
+    margin: 10px 40px;
+}
+
+nav ul {
+    display: flex;
+    gap: 28px;
+    margin: 20px;
+    margin-left: 700px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: green;
+    /* text-decoration: underline; */
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.textBrown {
+    font-size: 2rem;
+    color: #6b0e0e;
+}
+
+.textGreen {
+    font-size: 3rem;
+    color: green;
+}
+
+.section1 .para h1 span {
+    color: green;
+}
+
+.section2 {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.section2 .container {
+    margin: 50px;
+    height: 130px;
+    width: 120px;
+    padding: 10px;
+    box-shadow: inset;
+    border: 10px solid rgb(253, 235, 235);
+}
+
+.section2 .container img {
+    width: 50px;
+}
+
+.section2 .container p {
+    text-align: center;
+    background-color: pink;
+    margin: 8px;
+    padding: 1px;
+    color: slateblue;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.section3 {
+    font-weight: bold;
+    color: rgb(20, 20, 54);
+    text-align: center;
+}
+
+.checked {
+    color: orange;
+}
+
+.shirts img {
+    height: 200px;
+}
+
+.cart-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shirts {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.shirts .shirt {
+    margin-top: 40px;
+    box-shadow: 2px 2px 10px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* #bg {
+    margin-top: 40px;
+    width: 100%;
+    height: 350px;
+    position: relative;
+} */
+
+.section4 {
+    background: url(bg.webp);
+    /* height: 40vh; */
+    background-size: cover;
+    text-align: center;
+    padding: 250px;
+    color: rgb(20, 20, 54);
+    margin-top: 40px;
+}
+
+.section4 button {
+    padding: 10px;
+    color: #fff;
+    background-color: rgb(20, 20, 54);
+    border-radius: 5px;
+    border: none;
+}
+
+.section4 h4,
+h1,
+button {
+    margin: 8px;
+}
+
+.section5 {
+    text-align: center;
+    color: rgb(20, 20, 54);
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.section5 p {
+    font-weight: bold;
+}
+
+.section6 {
+    height: 80vh;
+    margin-top: 40px;
+}
+
+.section6 .buy1Get1 {
+    background: url(buy1.jpg);
+    height: 40vh;
+    width: 45vw;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+
+
+.section6 .upcoming {
+    background: url(upcoming1.webp);
+    height: 40vh;
+    width: 45vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+}
+
+.firstRow {
+    display: flex;
+    justify-content: center;
+}
+
+.secondRow {
+    display: flex;
+    justify-content: center;
+}
+
+
+.section6 .jewellery {
+    background: url(jewellery9.jpg);
+    height: 40vh;
+    width: 30vw;
+    background-size: cover;
+    margin: 5px;
+}
+
+
+.section6 .jacket {
+    background: url(jacket2.avif);
+    height: 40vh;
+    width: 30vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+}
+
+
+.section6 .shopping {
+    background: url(shopping.jpg);
+    height: 40vh;
+    width: 30vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+}
+
+.section7 {
+    background-color: rgb(23, 23, 61);
+    height: 120px;
+    width: 100%;
+    margin: 70px 0px 40px 0px;
+    /* opacity: 0.5; */
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 200px; */
+}
+
+.section7 .content {
+    /* padding: 300px;     */
+}
+
+#biggerone {
+    font-size: 1.5rem;
+    /* padding: 2px; */
+}
+
+.section7 .content p {
+    margin: 5px;
+    font-size: 1rem;
+}
+
+.section7 .inputBox input {
+    /* margin: 10px; */
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+#email {
+    /* font-size: 2rem; */
+    height: 40px;
+    width: 300px;
+}
+
+#signUp {
+    height: 40px;
+    width: 100px;
+    background-color: #128C7E;
+    color: #fff;
+    cursor: pointer;
+}
+
+.section8 {
+    margin: 20px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.FooterNav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#ios {
+    height: 30px;
+}
+
+#andriod {
+    height: 30px;
+}
+
+#payment img {
+    height: 25px;
+}
+
+/* 
+/* .banner8.FooterNav #Firstul li a,#Secondul li a{ */
+/* margin: 50px; */
+/* padding: 8px; */
+/* border: 2px solid black; */
+/* }  */
+*/ .playstore h4,
+p,
+a {
+    padding: 10px;
+}
+
+/* 
+.fa-cart-shopping{
+    background-color: rgb(204, 204, 254);
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 10px;
+} */
+
+#Contact {
+    margin-top: 30px;
+}
+
+#Contact address,
+h4,
+i {
+    /* padding: 5px; */
+}
+
+i {
+    cursor: pointer;
+}
+
+
+#Firstul li,
+#Secondul li {
+    list-style: none;
+}
+
+
+#Firstul li a,
+#Secondul li a {
+    text-decoration: none;
+}
+
+
+.fa-bars,
+.fa-xmark {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    nav {
+        width: 69%;
+        background-color: aqua;
+    }
+
+    nav img {
+        margin: 20px;
+    }
+
+    .section1 {
+        flex-direction: column;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    #model {
+        width: 100vw;
+    }
+
+    /* .fa-bars,
+    .fa-xmark {
+        display: block;
+    } */
+
+    .section2 {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .section2 .container {
+        margin: 12px;
+        margin-top: 20px;
+        box-shadow: inset;
+        /* background-color: red; */
+        /* height: 50%; */
+        width: 28%;
+        box-shadow: 2px 2px 15px;
+    }
+
+    .section3 h1 {
+        margin-top: 30px;
+        font-size: 1.5rem;
+
+    }
+
+    .section3 p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+    .shirts {
+        flex-wrap: wrap;
+    }
+    .section4 {
+        background: url(bgnew.jpg);
+        height: 50vh;
+        background-size: contain;
+        padding: 40px;
+        color: rgb(20, 20, 54);
+        margin-top: 50px;
+        align-items: center;
+    }
+    .section4 button {
+        padding: 10px;
+        color: #fff;
+        background-color: rgb(20, 20, 54);
+        border-radius: 5px;
+        border: none;
+    }
+    
+    .section4 h4,
+    h1,
+    button {
+        margin-top: 0px;
+    }
+    .section5 .shirts{
+        /* width: 10px; */
+        flex-wrap: wrap;
+    }
+}
